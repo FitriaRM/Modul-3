@@ -1,5 +1,6 @@
 body {
-	background-color: #4B6587;
+	background-color: #3D56B2;
+	font-family: monospace,sans-serif;
 }
 .wrapper {
 }
@@ -10,10 +11,12 @@ body {
 	padding-right: 10px;
 	padding-left: 10px;
 	background-color: #F0E5CF;
+	display: flex;
 }
 .sidebar {
-	width: 1000px;
+	width: 400px;
 	float: left;
+
 }
 .content {
 	width: 800px;
@@ -43,7 +46,6 @@ body {
 	margin-bottom: 170px;
 	padding: 10px;
 	font-size: 50px;
-	font-family: monospace,sans-serif;
 }
 #menu {
 	margin-right: 5px;
@@ -59,7 +61,6 @@ body {
 	margin-right: 10px;
 }
 #menu li a {
-	font-family: verdana, sans-serif;
 	color: #1E3163;
 	font-size: 20px;
 	font-weight: bold;
@@ -91,9 +92,7 @@ body {
 	object-fit: cover;
 
 }
-.betterdays {
-	height: 700px;
-}
+
 p a {
 	text-decoration: none;
 	color: black;
@@ -112,4 +111,15 @@ p a {
 }
 .recent-article a {
 	text-decoration: none;
+}
+.aboutme {
+	text-align: center;
+	width: 300px;
+	align-content: center;
+	background-color: #F7D59C;
+	margin: 500px;
+	padding: 20px;
+}
+.aboutme img {
+	width: 200px;
 }
